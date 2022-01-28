@@ -1,0 +1,8 @@
+{
+  "avisos-produto": {
+    "component": "AvisosProduto"
+  },
+  "fileupload": {
+    "component": "FileUpload"
+  }
+}

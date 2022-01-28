@@ -1,0 +1,15 @@
+.aviso12d {
+  font-weight: bold;
+  width: 100%;
+  padding: 10px 0px;
+  background-color: red;
+  color:white;
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.vtex-product-quantity-1-x-quantitySelectorContainer--quantidade-col{
+  display: -webkit-inline-box;
+  display: inline-flex;
+}
