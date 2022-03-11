@@ -5,9 +5,27 @@
 }
 
 .container--shelfTitle {
-  color: #727273;
   justify-content: center;
   text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: none;
+  color: #313131;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  padding-top: 70px;
+}
+
+.container--shelfTemas {
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: none;
+  color: #313131;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  padding-top: 20px;
 }
 
 .headingLevel2--shelfTitle {
@@ -87,4 +105,59 @@
   .container--title .paragraph {
     line-height: 1.3em;
   }
+}
+
+.container--footer-download-app,
+.container--footer-social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph--footer-social-media {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #FFF;
+}
+
+.heading--footer-download-app {
+  margin: 0 0 10px;
+  font-size: 14px;
+  color: #FFF;
+  font-weight: 600;
+}
+
+.paragraph--footer-method-payment-title,
+.paragraph--footer-selos-title,
+.paragraph--footer-shipping-title {
+  margin: 0 0 15px;
+}
+
+.paragraph--footer {
+  margin: 0;
+  color: #666;
+  font-size: 11px;
+}
+
+.paragraph--footer-shipping-title {
+  margin-top: 10px;
+}
+
+.container--footer-menu-phone,
+.container--footer-menu-email {
+  justify-content: center;
+}
+
+
+.container--footer-menu-phone .paragraph--footer-menu-phone,
+.container--footer-menu-email .paragraph--footer-menu-email,
+.container--footer-menu-email .link--footer-menu-email {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  margin: 0;
+  text-decoration: none;
+}
+
+.container--footer-menu-phone .paragraph--footer-menu-phone {
+  margin-bottom: 6px;
 }

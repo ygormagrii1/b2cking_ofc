@@ -9,6 +9,11 @@
   display: block;
 }
 
+:global(.vtex-store-components-3-x-autoCompleteOuterContainer)
+  :global(.vtex-input-prefix__group) {
+  width: 380px;
+}
+
 /* desktop/mobile main header padding and background transitions */
 :global(.vtex-flex-layout-0-x-flexRowContent--main-header),
 :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
@@ -16,15 +21,17 @@
   will-change: padding, background;
 }
 
-
 /* Ajusta tamanho do logo */
 :global(.vtex-store-components-3-x-logoImage) {
   width: 83px;
 }
 
 :global(.vtex-menu-2-x-styledLinkContent) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 11px;
-  color:black;
+  color: black;
   text-transform: uppercase;
 }
 
@@ -39,7 +46,6 @@
   :global(.vtex-flex-layout-0-x-flexRowContent--main-header),
 :global(.vtex-sticky-layout-0-x-wrapper--stuck)
   :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
-
 }
 
 /*
@@ -71,6 +77,17 @@
     background-color: #fff;
   }
 }
+
+/* Ajustes no order-placed */
+:global(.vtex-order-placed-2-x-noticeListItem):first-child::after {
+  content: " (Em caso de produtos personalizados considerar prazo de produção de 20 dias + prazo de entrega)";
+}
+
+:global(.vtex-order-placed-2-x-packageShippingEstimate)::after {
+  content: " + 20 dias de produção caso tenha pedido um item personalizado.";
+}
+
+/* Fim ajustes no order-placed */
 
 /* stick wrapper with the same color as the desktop/mobile header */
 :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
